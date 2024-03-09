@@ -5,8 +5,8 @@ The code implement of "Advancing Medical 3D Image Segmentation: Anatomy-Driven L
 Please get the BTCV datasets from [here](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789) 
 
 # A Quick Overview
-|Framework|
-|---|
-|![DTS](https://github.com/ready2drop/DTS/blob/main/framework.pdf)|
+
+# Requirements
+
 # TODO
  The code will be released after the acceptance.
