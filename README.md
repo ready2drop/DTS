@@ -7,6 +7,6 @@ Please get the BTCV datasets from [here](https://www.synapse.org/#!Synapse:syn31
 # A Quick Overview
 |Framework|
 |---|
-|![DTS](https://github.com/ready2drop/DTS/framework.pdf)|
+|![DTS](https://github.com/ready2drop/DTS/blob/main/framework.pdf)|
 # TODO
  The code will be released after the acceptance.
