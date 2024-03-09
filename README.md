@@ -8,5 +8,9 @@ Please get the BTCV datasets from [here](https://www.synapse.org/#!Synapse:syn31
 
 # Requirements
 
+```
+ pip install -r requirements.txt
+ ```
+
 # TODO
  The code will be released after the acceptance.
