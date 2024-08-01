@@ -7,8 +7,7 @@ The code implement of "Advancing Medical Image Segmentation: Morphology-Driven L
 ## What is DTS 👀
 DTS employs a diffusion transformer segmentation architecture and morphology-driven learning methods to significantly improve medical image segmentation accuracy, effectively capturing small organs and addressing the essential challenges of medical imaging.
 
-
-<img src="./assets/fig_architecture.pdf" width="800px">
+[architecture diagram PDF](./assets/fig_architecture.pdf).
 
 ## Features
 Please get the datasets from the below.
