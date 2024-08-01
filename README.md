@@ -2,12 +2,11 @@
 The code implement of "Advancing Medical Image Segmentation: Morphology-Driven Learning with Diffusion Transformer"
 
 ## Updates 📌
-[2024/7/19]🔥 DTS has been accepted to BMVC2024!
+[2024/7/19]🔥 DTS has been accepted to [BMVC2024](https://bmvc2024.org/) !
 
 ## What is DTS 👀
 DTS employs a diffusion transformer segmentation architecture and morphology-driven learning methods to significantly improve medical image segmentation accuracy, effectively capturing small organs and addressing the essential challenges of medical imaging.
 
-Our Osprey can seamlessly integrate with [SAM](https://github.com/facebookresearch/segment-anything) in point-prompt, box-prompt and segmentation everything modes to generate the semantics associated with specific parts or objects.
 
 <img src="./assets/framework.png" width="800px">
 
