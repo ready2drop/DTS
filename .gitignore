@@ -1,0 +1,10 @@
+*.png
+*.jpg
+*.pt
+*.pth
+*.pyc
+*.pkl
+*.mp4
+
+logs/*
+wandb/*

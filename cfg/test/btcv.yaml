@@ -1,0 +1,18 @@
+model_name: DTS
+data_name: btcv
+data_path: /your/path/to/BTCV
+sw_batch_size: 4
+overlap: 0.8
+image_size: 96
+spatial_size: 96
+spacing: [1.5, 1.5, 2.0]
+classes: cfg/classes/btcv.yaml
+device: cuda:0
+model_path: /your/path/to/weights.pt
+project_name: DTS
+wandb_name: DTS
+include_background: false
+use_wandb: false
+use_cache: false
+use_amp: true
+epoch: null

@@ -11,15 +11,38 @@ DTS employs a diffusion transformer segmentation architecture and morphology-dri
 
 ## Features
 Please get the datasets from the below.
-BTCV [here](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789) 
-
-## A Quick Overview
+BTCV [here](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789)
 
 ## Requirements
 
 ```
- pip install -r requirements.txt
- ```
+pip install -r requirements.txt
+```
 
-## TODO
- The code will be released after the acceptance.
+# Training & Testing
+
+Both training and evaluation scripts use a YAML configuration file to specify all necessary parameters.
+
+---
+
+## 🛠️ Usage
+
+### Training
+
+```bash
+python train.py --config path/to/train_config.yaml
+```
+
+### Training
+
+```bash
+python test.py --config path/to/test_config.yaml
+```
+
+## ⚙️ Required Argument
+
+- `--config`: Path to the YAML file containing all parameters.
+
+## 📌 Notes
+- For training, make sure to correctly set values like data_path, save_dir, and any logging-related fields in your YAML.
+- For testing, ensure that model_path points to a valid checkpoint file, and data_path correctly specifies the dataset location.
